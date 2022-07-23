@@ -1,9 +1,8 @@
+#include <Creativengine.h>
 
-namespace Creativengine {
-	__declspec(dllimport) void Run();
-}
+CREATIVENGINE_API void Run();
 
 int main()
 {
-	Creativengine::Run();
+	Run();
 }
