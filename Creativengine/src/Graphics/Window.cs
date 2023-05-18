@@ -12,7 +12,7 @@ namespace Creativengine.Graphics
         private int m_Width, m_Height;
         private string m_Title;
 
-        private Form m_Form;
+        private static Form m_Form;
 
         public Window(int width, int height, string title)
         {
@@ -32,6 +32,6 @@ namespace Creativengine.Graphics
             m_Form.StartPosition = FormStartPosition.CenterScreen;
         }
 
-        public Form GetForm() { return m_Form; }
+        public static Form GetForm() { return m_Form; }
     }
 }

@@ -10,6 +10,6 @@ namespace Creativengine.Framework
     {
         public string name;
 
-        public Components
+        public List<Component> components;
     }
 }

@@ -5,6 +5,10 @@ VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creativengine", "Creativengine\Creativengine.csproj", "{C168C69E-D25B-4243-BBBE-1E62879FECF3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{A038AB0E-A17F-44D1-A9C9-A642509485CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myGui", "Dependencies\MyGui\myGui\myGui.csproj", "{0CADA5C7-4F7E-406F-AD27-93638F0A4B98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{C168C69E-D25B-4243-BBBE-1E62879FECF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C168C69E-D25B-4243-BBBE-1E62879FECF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C168C69E-D25B-4243-BBBE-1E62879FECF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CADA5C7-4F7E-406F-AD27-93638F0A4B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CADA5C7-4F7E-406F-AD27-93638F0A4B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CADA5C7-4F7E-406F-AD27-93638F0A4B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CADA5C7-4F7E-406F-AD27-93638F0A4B98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0CADA5C7-4F7E-406F-AD27-93638F0A4B98} = {A038AB0E-A17F-44D1-A9C9-A642509485CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {866131BF-7BEA-44A7-8039-DE3869AB4F4F}

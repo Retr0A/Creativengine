@@ -6,3 +6,7 @@ C:\Users\Retr0A\source\repos\Creativengine\Creativengine\obj\Debug\Creativengine
 C:\Users\Retr0A\source\repos\Creativengine\Creativengine\obj\Debug\Creativengine.csproj.CoreCompileInputs.cache
 C:\Users\Retr0A\source\repos\Creativengine\Creativengine\obj\Debug\Creativengine.exe
 C:\Users\Retr0A\source\repos\Creativengine\Creativengine\obj\Debug\Creativengine.pdb
+C:\Users\Retr0A\source\repos\Creativengine\Creativengine\bin\Debug\myGui.dll
+C:\Users\Retr0A\source\repos\Creativengine\Creativengine\bin\Debug\myGui.pdb
+C:\Users\Retr0A\source\repos\Creativengine\Creativengine\bin\Debug\myGui.dll.config
+C:\Users\Retr0A\source\repos\Creativengine\Creativengine\obj\Debug\Creativengine.csproj.CopyComplete

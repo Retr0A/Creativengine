@@ -46,12 +46,19 @@
     <Compile Include="src\Framework\CreativeScene.cs" />
     <Compile Include="src\Framework\GameObject.cs" />
     <Compile Include="src\Framework\Vector2.cs" />
+    <Compile Include="src\Graphics\Panels\ViewportPanel.cs" />
     <Compile Include="src\Graphics\Window.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dependencies\MyGui\myGui\myGui.csproj">
+      <Project>{0cada5c7-4f7e-406f-ad27-93638f0a4b98}</Project>
+      <Name>myGui</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
