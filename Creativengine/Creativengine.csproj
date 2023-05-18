@@ -40,6 +40,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="src\EntryPoint.cs" />
+    <Compile Include="src\Framework\Components\Component.cs" />
+    <Compile Include="src\Framework\Components\Transform.cs" />
+    <Compile Include="src\Framework\Components\GraphicsRenderer.cs" />
+    <Compile Include="src\Framework\CreativeScene.cs" />
+    <Compile Include="src\Framework\GameObject.cs" />
+    <Compile Include="src\Framework\Vector2.cs" />
     <Compile Include="src\Graphics\Window.cs" />
   </ItemGroup>
   <ItemGroup>
