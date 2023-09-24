@@ -9,6 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myGui", "Dependencies\MyGui\myGui\myGui.csproj", "{0CADA5C7-4F7E-406F-AD27-93638F0A4B98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandbox\Sandbox.csproj", "{888CD7CE-C8D6-47D5-99F7-335885B75E33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{BEB9EA7C-8A14-4EBD-8BE5-F3344D64FAC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{95B23C3C-FF11-4E53-BB24-19092276F2F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +29,18 @@ Global
 		{0CADA5C7-4F7E-406F-AD27-93638F0A4B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CADA5C7-4F7E-406F-AD27-93638F0A4B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CADA5C7-4F7E-406F-AD27-93638F0A4B98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{888CD7CE-C8D6-47D5-99F7-335885B75E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888CD7CE-C8D6-47D5-99F7-335885B75E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888CD7CE-C8D6-47D5-99F7-335885B75E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888CD7CE-C8D6-47D5-99F7-335885B75E33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{C168C69E-D25B-4243-BBBE-1E62879FECF3} = {BEB9EA7C-8A14-4EBD-8BE5-F3344D64FAC8}
 		{0CADA5C7-4F7E-406F-AD27-93638F0A4B98} = {A038AB0E-A17F-44D1-A9C9-A642509485CF}
+		{888CD7CE-C8D6-47D5-99F7-335885B75E33} = {95B23C3C-FF11-4E53-BB24-19092276F2F7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {866131BF-7BEA-44A7-8039-DE3869AB4F4F}

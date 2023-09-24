@@ -1,0 +1,15 @@
+C:\Users\Retr0A\source\repos\Creativengine\Sandbox\bin\Debug\Sandbox.exe.config
+C:\Users\Retr0A\source\repos\Creativengine\Sandbox\bin\Debug\Sandbox.exe
+C:\Users\Retr0A\source\repos\Creativengine\Sandbox\bin\Debug\Sandbox.pdb
+C:\Users\Retr0A\source\repos\Creativengine\Sandbox\bin\Debug\Creativengine.dll
+C:\Users\Retr0A\source\repos\Creativengine\Sandbox\bin\Debug\myGui.dll
+C:\Users\Retr0A\source\repos\Creativengine\Sandbox\bin\Debug\Creativengine.pdb
+C:\Users\Retr0A\source\repos\Creativengine\Sandbox\bin\Debug\Creativengine.dll.config
+C:\Users\Retr0A\source\repos\Creativengine\Sandbox\bin\Debug\myGui.pdb
+C:\Users\Retr0A\source\repos\Creativengine\Sandbox\bin\Debug\myGui.dll.config
+C:\Users\Retr0A\source\repos\Creativengine\Sandbox\obj\Debug\Sandbox.csproj.AssemblyReference.cache
+C:\Users\Retr0A\source\repos\Creativengine\Sandbox\obj\Debug\Sandbox.csproj.SuggestedBindingRedirects.cache
+C:\Users\Retr0A\source\repos\Creativengine\Sandbox\obj\Debug\Sandbox.csproj.CoreCompileInputs.cache
+C:\Users\Retr0A\source\repos\Creativengine\Sandbox\obj\Debug\Sandbox.csproj.CopyComplete
+C:\Users\Retr0A\source\repos\Creativengine\Sandbox\obj\Debug\Sandbox.exe
+C:\Users\Retr0A\source\repos\Creativengine\Sandbox\obj\Debug\Sandbox.pdb

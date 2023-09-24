@@ -8,7 +8,7 @@ namespace Creativengine.Framework
 {
     public class Vector2
     {
-        public int x, y;
+        public float x, y;
 
         public Vector2()
         {
@@ -16,13 +16,13 @@ namespace Creativengine.Framework
             y = 0;
         }
 
-        public Vector2(int x)
+        public Vector2(float x)
         {
             this.x = x;
             y = 0;
         }
 
-        public Vector2(int x, int y)
+        public Vector2(float x, float y)
         {
             this.x = x;
             this.y = y;

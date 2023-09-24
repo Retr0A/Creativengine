@@ -1,4 +1,5 @@
-﻿using Creativengine.Framework.Components;
+﻿using Creativengine.Framework;
+using Creativengine.Framework.Components;
 using MyGui;
 using System;
 using System.Collections.Generic;
@@ -30,32 +31,33 @@ namespace Creativengine.Graphics
                 Dock = DockStyle.Fill,
             };
 
+            renderPanel.MouseClick += RenderPanel_MouseClick;
+
             RefreshRenderPanel();
 
             myGuiPanel.addControl(renderPanel);
         }
 
+        private void RenderPanel_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                Application.SetSelectedObject(-1);
+                Application.GlobalRefresh();
+            }
+        }
+
         public void RefreshRenderPanel()
         {
-            renderPanel.BackColor = EntryPoint.GetOpenedScene().skyColor;
+            renderPanel.BackColor = Application.GetOpenedScene().skyColor;
 
-            foreach (var item in EntryPoint.GetOpenedScene().objects)
+            renderPanel.Controls.Clear();
+
+            foreach (GameObject item in Application.GetOpenedScene().objects)
             {
-                if (item.components.Exists(c => c is GraphicsRenderer))
-                {
-                    Transform transform = (Transform)item.components.Find(comp => comp is Transform);
-                    GraphicsRenderer graphicsRenderer = (GraphicsRenderer)item.components.Find(comp => comp is GraphicsRenderer);
+                var panel = item.Render();
 
-                    Panel panel = new Panel()
-                    {
-                        Location = new Point(transform.position.x, transform.position.y),
-                        Size = new Size(transform.scale.x, transform.scale.y),
-
-                        BackColor = graphicsRenderer.color
-                    };
-
-                    renderPanel.Controls.Add(panel);
-                }
+                if (panel != null) renderPanel.Controls.Add(panel);
             }
         }
     }

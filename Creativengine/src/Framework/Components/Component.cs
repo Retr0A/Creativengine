@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Creativengine.Framework
 {
-    public abstract class Component
+    public class Component
     {
         protected string m_ComponentName;
 

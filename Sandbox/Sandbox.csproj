@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C168C69E-D25B-4243-BBBE-1E62879FECF3}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <RootNamespace>Creativengine</RootNamespace>
-    <AssemblyName>Creativengine</AssemblyName>
+    <ProjectGuid>{888CD7CE-C8D6-47D5-99F7-335885B75E33}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Sandbox</RootNamespace>
+    <AssemblyName>Sandbox</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,36 +32,17 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="src\Application.cs" />
-    <Compile Include="src\Framework\Components\Component.cs" />
-    <Compile Include="src\Framework\Components\Transform.cs" />
-    <Compile Include="src\Framework\Components\GraphicsRenderer.cs" />
-    <Compile Include="src\Framework\CreativeScene.cs" />
-    <Compile Include="src\Framework\GameObject.cs" />
-    <Compile Include="src\Framework\Vector2.cs" />
-    <Compile Include="src\Graphics\Dialogs\AddComponentDialog.cs" />
-    <Compile Include="src\Graphics\Panels\ObjectsViewerPanel.cs" />
-    <Compile Include="src\Graphics\Panels\PropertiesPanel.cs" />
-    <Compile Include="src\Graphics\Panels\ViewportPanel.cs" />
-    <Compile Include="src\Graphics\Window.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows.Forms" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Dependencies\MyGui\myGui\myGui.csproj">
-      <Project>{0cada5c7-4f7e-406f-ad27-93638f0a4b98}</Project>
-      <Name>myGui</Name>
+    <ProjectReference Include="..\Creativengine\Creativengine.csproj">
+      <Project>{c168c69e-d25b-4243-bbbe-1e62879fecf3}</Project>
+      <Name>Creativengine</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\EntryPoint.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
